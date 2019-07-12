@@ -6,6 +6,7 @@ provider "google" {
 terraform {
   backend "gcs" {
     bucket  = "opencue-tf-test"
+    credentials = "account.json"
   }
 }
 
