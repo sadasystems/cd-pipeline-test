@@ -1,5 +1,12 @@
 provider "google" {
   region      = "${var.region}"
+  credentials = "${file("account.json")}"
+}
+
+terraform {
+  backend "gcs" {
+    bucket  = "opencue-tf-test"
+  }
 }
 
 resource "google_compute_instance" "vm_instance" {
@@ -21,4 +28,3 @@ resource "google_compute_instance" "vm_instance" {
     }
   }
 }
-
