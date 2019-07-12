@@ -20,4 +20,3 @@ resource "google_compute_instance" "vm_instance" {
   }
 }
 
-/Users/kevinmccartney/Downloads/opencue-tf-test-8232f5f5d9f9.json
