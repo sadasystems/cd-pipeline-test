@@ -14,4 +14,4 @@ variable "storage_instance_name" {default = "change-me"}
 
 variable "capacity_gb" {default = 2000}
 
-variable "capacity_gb" {default = "change-me"}
+variable "share_name" {default = "change-me"}
