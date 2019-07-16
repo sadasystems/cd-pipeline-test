@@ -1,14 +1,14 @@
 ## Add compute and DB resources
 
 resource "google_compute_instance" "vm_instance" {
-  name         = "terraform-instance"
-  machine_type = "f1-micro"
+  name         = "${var.compute_name}"
+  machine_type = "${var.compute_type}"
   project = "${var.project}"
   zone = "${var.zone}"
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "${var.compute_image}"
     }
   }
   network_interface {
