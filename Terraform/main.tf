@@ -1,5 +1,5 @@
-module "compute_instance_1" {
+module "opencue_master" {
    source = "./modules/compute"
-   compute_name = "test-machine-name"
+   compute_name = "opencue-master"
 
 }
