@@ -1,6 +1,6 @@
-variable "region" {default = "us-west-1"}
+variable "region" {default = "us-west1"}
 
-variable "project" {default = "opencue-tf-test"}
+variable "project" {default = "kevin-sandbox-0917"}
 
 variable "zone" {default = "us-west1-a"}
 

@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"opencue_master","Source":"./modules/compute","Dir":"modules/compute"},{"Key":"compute_instance_1","Source":"./modules/compute","Dir":"modules/compute"},{"Key":"","Source":"","Dir":"."}]}
+{"Modules":[{"Key":"GKE","Source":"./modules/GKE","Dir":"modules/GKE"},{"Key":"opencue_master","Source":"./modules/compute","Dir":"modules/compute"},{"Key":"compute_instance_1","Source":"./modules/compute","Dir":"modules/compute"},{"Key":"","Source":"","Dir":"."}]}
